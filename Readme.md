@@ -17,7 +17,18 @@ Bidirectional LSTMs are an extension of traditional LSTMs that can improve model
 In problems where all timesteps of the input sequence are available, Bidirectional LSTMs train two instead of one LSTMs on the input sequence. The first on the input sequence as-is and the second on a reversed copy of the input sequence. This can provide additional context to the network and result in faster and even fuller learning on the problem.
 
 ---
-### 2 SpamClassifer
+### 2  LSTM RNN for text generation with Keras
+
+	- here we will split the book text up into subsequences with a fixed length of 100 characters, an arbitrary length 
+	- LSTM layers with 300 memory units
+	- used dropout at 20
+	- output layer is dense layer using softmax activation
+	- we are modeling the training dataset to learn the probability of each chracter in dataset
+	- there is no testing dataset
+	- network is slow to train, so we would use checkpoints to record all network weights to a file each time an improvement is observed
+
+---
+### 3 SpamClassifer
 
  Built a model for classifying the SMS/Email into spam or ham through the text of the SMS/Email using standard classifie
 ![wordcloud](/spam.png)
