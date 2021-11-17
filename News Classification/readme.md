@@ -1,4 +1,4 @@
-# News Classifier Using Bidirectional LSTM RNN
+# News Classifier Using Bidirectional GRU
 
 ---
 _**Fake or Real!!!**_
