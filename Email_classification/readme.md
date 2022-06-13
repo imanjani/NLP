@@ -20,4 +20,4 @@ Context: A customer service research unit within Wells Fargo approaches the NLP 
 **Task** : Your task is to use this training dataset to build a classification model to accurately route future complaints to the right department. Once you have developed your model, prepare a presentation (slide deck, notebook or similar) to share your model results as well as an overview and rationale of your methodology choices for data pre-processing, model selection and tuning and model evaluation. You will be given 72 hours to complete this task. We understand that this is not a lot of time to develop a high performing model, and you will therefore be judged on the soundness of your methodological choices as much or more than your model performance. The code used to produce your results, as well as your presentation materials and best trained model (as a model binary) should be turned in as part of your submission. Please be prepared to deliver a 30-45 minutes presentation to the hiring team over the phone at an agreed upon time following the case study.
 
 
-<img src="wordcloud.jpg" width="40%"/>
+<img src="wordcloud.jpg" width="110%"/>
